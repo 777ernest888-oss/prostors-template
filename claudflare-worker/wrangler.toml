@@ -1,0 +1,10 @@
+name = "tg-proxy"
+main = "worker.js"
+compatibility_date = "2024-06-01"
+
+# ВАЖНО: Секреты (GAS_URL и TELEGRAM_SECRET) НЕ нужно добавлять в этот файл!
+# Они добавляются через Cloudflare Dashboard (Settings -> Variables -> Secrets)
+# или через консоль командой: wrangler secret put GAS_URL
+
+[vars]
+# Сюда можно добавить только НЕсекретные переменные, если потребуется.
