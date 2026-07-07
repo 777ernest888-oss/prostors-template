@@ -1,0 +1,6 @@
+{
+  "client": {
+    "scriptUrl": "ВСТАВЬ_СЮДА_URL_СВОЕГО_APPS_SCRIPT",
+    "ownerId": "ВСТАВЬ_СЮДА_СВОЙ_TELEGRAM_ID"
+  }
+}
